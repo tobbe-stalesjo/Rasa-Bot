@@ -1,0 +1,51 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- teamvate_usage
+- what_can_i_change
+- contact
+- admin_job
+- teamvate_start
+- teamvate_bot
+- api_event
+- paycheck
+- goals
+- nlu_fallback
+- bot_language
+responses:
+  utter_please_rephrase:
+  - text: Ursäkta, jag förstod inte vad du menade. Kan du upprepa?
+  utter_greet:
+  - text: "Hej, Hur kan jag hjälpa dig idag?\n"
+  utter_goodbye:
+  - text: "Ha en fortsatt bra dag\n"
+  utter_teamvate_usage:
+  - text: "Teamvate är den nya medarbetar appen som underlättare för hela ditt företag\
+      \ och ser till att du har allt på en och samma plats.\n"
+  utter_admin_job:
+  - text: "När det kommer till ändringar i appen som att ändrar och lägga till en\
+      \ person så är det endast admin som göra detta men vem som helst kan lägga upp\
+      \ en ny feed\n"
+  utter_contact:
+  - text: "Du kan kontakta Teamvate vid hemsidan: https://sv.teamvate.com/company/contact-global\n"
+  utter_what_can_i_change:
+  - text: "Som användare kan du alltid kolla din mål, ändra informationen på dig själv\
+      \ samt att du kan när som helst lägga upp en ny feed och tagga dina kollegor\
+      \ i denna.\n"
+  utter_teamvate_start:
+  - text: Teamvate har funnits sedan 2019 och startades av Anton Nilsson
+  utter_teamvate_bot:
+  - text: Jag är Teamvate assistenten och jag är här för att hjälpa dig.
+  utter_api_event:
+  - text: API är ett gränssnitt till datorprogram, som gör det möjligt för ett program
+      att kommunicera med ett annat program. Ett API fungerar som en verktygslåda
+      som kan bygga en bro mellan olika program.
+  utter_paycheck:
+  - text: Du får din lön den 25 varje månad förutsatt att det inte är en helgdag.
+  utter_goals:
+  - text: Dina Goals är något som du tillsammas med din närmsta chef ska sätta.
+  utter_bot_language:
+  - text: Idag kan jag endast svenska men jag vill gärna lära mig flera språk

@@ -1,0 +1,30 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+  - story: Story from Conversation ID 6063e93edd654d27baa1c67eb0de4291
+    steps:
+      - action: utter_greet
+      - intent: greet
+      - action: utter_teamvate_start
+      - intent: user
+      - action: utter_user
+      - intent: goals
+      - action: utter_goals
+      - intent: user
+      - action: utter_user
+      - intent: changes
+      - action: utter_changes
+
+  - story: Story from Conversation ID 9c611726c7194f4886f4f08a904ec3dd
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: goals
+      - action: utter_goals
+      - intent: contact
+      - action: utter_contact
+      - intent: nlu_fallback
+      - action: utter_please_rephrase
+      - intent: contact
+      - action: utter_contact

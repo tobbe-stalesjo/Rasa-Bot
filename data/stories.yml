@@ -1,0 +1,52 @@
+version: "2.0"
+
+stories:
+
+- story: greetings
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: teamvate_user
+  steps:
+  - intent: teamvate_usage
+  - action: utter_teamvate_usage
+
+- story: admin_job
+  steps:
+    - intent: admin_job
+    - action: utter_admin_job
+
+- story: contact
+  steps:
+    - intent: contact
+    - action: utter_contact
+
+- story: what_can_i_change
+  steps:
+    - intent: what_can_i_change
+    - action: utter_what_can_i_change
+
+- story: paycheck
+  steps:
+    - intent: paycheck
+    - action: utter_paycheck
+
+- story: goals
+  steps:
+    - intent: goals
+    - action: utter_goals
+
+- story: teamvate_bot
+  steps:
+    - intent: teamvate_bot
+    - action: utter_teamvate_bot
+    - intent: bot_language
+    - action: utter_bot_language
+
+

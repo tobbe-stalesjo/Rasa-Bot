@@ -1,0 +1,103 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - Hej
+    - Hejsan
+    - Hallo
+    - God dag
+    - Tjenare
+    - Tja
+    - Läget?
+    - Hej där
+    - Hej!
+- intent: goodbye
+  examples: |
+    - Hej då
+    - Ha en fortsatt bra dag
+    - Trevligt att träffas
+    - hej då
+- intent: teamvate_usage
+  examples: |
+    - vem använder teamvate
+    - hur fungerar teamvate
+    - Vad gör appen
+    - Vem använder teamvate
+    - Vem är teamvate till för
+    - Vad är teamvate
+    - vad är teamvate?
+    - vad är teamvate
+    - vad är teamvate appen för något?
+    - var finns teamvate?
+- intent: nlu_fallback
+  examples: |
+    - vad gör du?
+    - hur kan du hjälpa mig
+    - Hur öppnar jag min teamvate app?
+    - finns det kaffe på jobbet
+    - Var är kaffekokaren
+- intent: admin_job
+  examples: |
+    - kan jag lägga till en person i teamvate
+    - Kan jag lägga till saker i appen
+    - Vem kan göra ändringar i appen
+    - Vem kan lägga till personer i appen
+    - kan jag lägga till en person
+    - kan jag lägga till personer?
+    - kan jag göra ändringar i appen?
+    - vem ska jag kontakta om jag har frågor kring appen
+- intent: contact
+  examples: |
+    - vem kan jag kontakta om jag vill veta mer?
+    - hur kommer jag i kontakt med teamvate
+    - var kontaktat jag teamvate
+    - hur kontaktar jag teamvate
+- intent: what_can_i_change
+  examples: |
+    - Vad kan jag ändra i appen
+    - Vad kan jag göra i appen
+    - Kan jag lägga upp saker
+    - kan jag lägga upp bilder
+    - Kan jag lägga till saker i appen
+    - vad kan jag göra i appen?
+    - vad jag kan göra i appen?
+    - vad kan man göra i appen?
+    - kan jag lägga upp bilder i appen?
+- intent: teamvate_start
+  examples: |
+    - hur länge har teamvate funnits?
+    - vem startade teamvate?
+    - när startade teamvate
+    - när grundades teamvate?
+    - vem startade teamvate
+- intent: teamvate_bot
+  examples: |
+    - Vem är du?
+    - vad är du?
+    - vem är du då?
+    - Är du en bot
+    - Är du en människa
+    - vem är du?
+    - är du en människa?
+    - vem är du
+- intent: api_event
+  examples: |
+    - hur funkar ett API
+    - vad är en api
+- intent: paycheck
+  examples: |
+    - När får jag lön
+    - När kommer lönen
+    - Vilken dag kommer min lön
+    - när får jag min lön?
+    - när får jag lön
+- intent: goals
+  examples: |
+    - vad är mål för något?
+    - vad är goals
+    - hur fungerar goals
+- intent: bot_language
+  examples: |
+    - vilka språk kan du
+    - kan du flera språk
+    - hur många språk talar du
