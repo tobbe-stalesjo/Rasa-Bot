@@ -1,3 +1,2 @@
 python ==3.8.0
 rasa ==2.0
-curl -s get-rasa-x.rasa.com | sudo bash
