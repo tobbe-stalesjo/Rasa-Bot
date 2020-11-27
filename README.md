@@ -1,2 +1,2 @@
-# Teamvate-bot
+# Rasa-bot
 My first Rasa bot
